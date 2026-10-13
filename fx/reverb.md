@@ -16,16 +16,16 @@ La Reverb fonctionne en générant une multitude de réflexions du son original,
 
 ReaVerbate (Cockos) est un plugin de réverbération inclus dans REAPER qui permet de simuler la résonance d’un espace virtuel et de contrôler l’ambiance, la profondeur et la spatialisation d’un son.
 
-| Paramètre     | Valeur     |
-| ------------- | ---------- |
-| Wet           | Knob       |
-| Dry           | 0 dB       |
-| Room Size     | Fader (60) |
-| Dampening     | 55         |
-| Stereo Width  | 1.00       |
-| Initial Delay | 20 ms      |
-| Lowpass       | 10000 Hz   |
-| Highpass      | 200 Hz     |
+| Paramètre     | Valeur           |
+| ------------- | ---------------- |
+| Wet           | ⚙️**Knob**       |
+| Dry           | 0 dB             |
+| Room Size     | 🎚️**Fader** (60) |
+| Dampening     | 55               |
+| Stereo Width  | 1.00             |
+| Initial Delay | 20 ms            |
+| Lowpass       | 10000 Hz         |
+| Highpass      | 200 Hz           |
 
 ### Wet
 
