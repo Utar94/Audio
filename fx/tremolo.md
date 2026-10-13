@@ -25,9 +25,9 @@ MTremolo est un plugin audio de MeldaProduction qui permet de faire osciller aut
 | Invert Tremolo Phase | Désactivé |
 | Sync                 | Désactivé |
 | Shape (LFO)          | Sine      |
-| Custom               | 0 %       |
-| Step                 | 0 %       |
-| Smooth               | 0 %       |
+| Custom               | 0%        |
+| Step                 | 0%        |
+| Smooth               | 0%        |
 | Normal / Harmonics   | Normal    |
 
 ### Depth

@@ -1,11 +1,17 @@
 # FX
 
+- [Bitcrusher](./bitcrusher.md)
 - [Chorus](./chorus.md)
 - [Delay](./delay.md)
+- [Distorsion](./distorsion.md)
 - [EQ](./eq.md)
 - [Flanger](./flanger.md)
+- [Harmonizer](./harmonizer.md)
 - [Phaser](./phaser.md)
-- [Pitch Bend](./pitch-bend.md)
+- [Pitch Bend](./pitch.md)
 - [Reverb](./reverb.md)
+- [Ring Modulation](./ring.md)
+- [Saturation](./saturation.md)
 - [Tremolo](./tremolo.md)
 - [Vibrato](./vibrato.md)
+- [Wah](./wah.md)
