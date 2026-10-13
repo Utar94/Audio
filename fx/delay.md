@@ -16,21 +16,21 @@ Le Delay fonctionne en enregistrant temporairement le signal audio pour le rejou
 
 ReaDelay est un plugin de Delay inclus dans REAPER, qui permet de créer des échos simples ou complexes grâce à plusieurs répétitions configurables (taps).
 
-| Paramètre        | Valeur             |
-| ---------------- | ------------------ |
-| Wet              | ⚙️**Knob**         |
-| Dry              | 0 dB               |
-| Enabled          | true               |
-| Solo Active Tap  | false              |
-| Length (time)    | 0 ms               |
-| Length (musical) | 2.00 × ⅛           |
-| Feedback         | 🎚️**Fader** -10 dB |
-| Lowpass filter   | 6000 Hz            |
-| Hipass filter    | 200 Hz             |
-| Resolution       | 24 bits            |
-| Stereo width     | 1.00               |
-| Volume (tap)     | 0 dB               |
-| Pan (tap)        | 0.000              |
+| Paramètre        | Valeur               |
+| ---------------- | -------------------- |
+| Wet              | ⚙️**Knob**           |
+| Dry              | 0 dB                 |
+| Enabled          | true                 |
+| Solo Active Tap  | false                |
+| Length (time)    | 0 ms                 |
+| Length (musical) | 2.00 × ⅛             |
+| Feedback         | 🎚️**Fader** (-10 dB) |
+| Lowpass filter   | 6000 Hz              |
+| Hipass filter    | 200 Hz               |
+| Resolution       | 24 bits              |
+| Stereo width     | 1.00                 |
+| Volume (tap)     | 0 dB                 |
+| Pan (tap)        | 0.000                |
 
 ### Wet
 
