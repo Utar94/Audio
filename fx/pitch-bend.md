@@ -11,3 +11,7 @@ Le Pitch Bend permet d’ajouter de l’expressivité et du réalisme à un inst
 ## Fonctionnement
 
 Le Pitch Bend fonctionne en envoyant des messages MIDI qui indiquent au synthétiseur de modifier la hauteur des notes jouées. La position centrale de la roue ou du joystick correspond à la hauteur originale, tandis que les déplacements vers le haut ou le bas augmentent ou diminuent progressivement cette hauteur. L’amplitude maximale de la variation est déterminée par le Pitch Bend Range, généralement exprimé en demi-tons (semitones), avec une valeur courante de ±2 demi-tons, mais pouvant être configurée à ±12 ou ±24 demi-tons selon l’instrument. Contrairement à la Mod Wheel, le contrôle de Pitch Bend revient généralement automatiquement au centre lorsqu’il est relâché.
+
+## Statique ou Dynamique
+
+Je recommande de conserver le Pitch Bend Range statique à ±2 demi-tons sur tes Keys et à ±12 demi-tons sur ton Lead, puisque leurs besoins sont différents. Un knob permettrait de modifier rapidement l’amplitude du Pitch Bend pendant une performance, tandis qu’un fader offrirait une meilleure visualisation de la plage sélectionnée. Toutefois, modifier cette plage en plein jeu peut rendre le Pitch Bend imprévisible, puisqu’un même mouvement de la roue produirait des variations différentes. Pour ton setup, je privilégierais donc une valeur statique par instrument, sans monopoliser un knob ou un fader.

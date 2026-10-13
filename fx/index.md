@@ -6,4 +6,5 @@
 - [Phaser](./phaser.md)
 - [Pitch Bend](./pitch-bend.md)
 - [Reverb](./reverb.md)
+- [Tremolo](./tremolo.md)
 - [Vibrato](./vibrato.md)
