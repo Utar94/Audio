@@ -5,3 +5,4 @@ Personal notes on audio production, sound design, synthesis, effects, MIDI contr
 - [FX](./fx/index.md)
 - [Mix](./mix/index.md)
 - [Synth](./synth/index.md)
+- [Voice](./voice/index.md)
