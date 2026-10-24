@@ -1,6 +1,6 @@
 # FX
 
-- [Bitcrusher](./bitcrusher.md)
+- [BitCrusher](./bitcrusher.md)
 - [Chorus](./chorus.md)
 - [Delay](./delay.md)
 - [Distorsion](./distorsion.md)

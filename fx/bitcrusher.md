@@ -1,16 +1,16 @@
-# Bitcrusher
+# BitCrusher
 
 ## Définition
 
-Le Bitcrusher est un effet audio (FX) de dégradation numérique qui réduit volontairement la qualité dun signal sonore pour lui donner un caractère granuleux, artificiel et rétro (Lo-Fi). Contrairement à la Distorsion et à la Saturation, qui déforment principalement la forme donde du signal, le Bitcrusher altère sa précision numérique. Il permet notamment de reproduire certaines caractéristiques sonores des anciennes consoles de jeux vidéo, des premiers ordinateurs et des équipements audio numériques à faible résolution.
+Le BitCrusher est un effet audio (FX) de dégradation numérique qui réduit volontairement la qualité dun signal sonore pour lui donner un caractère granuleux, artificiel et rétro (Lo-Fi). Contrairement à la Distorsion et à la Saturation, qui déforment principalement la forme donde du signal, le BitCrusher altère sa précision numérique. Il permet notamment de reproduire certaines caractéristiques sonores des anciennes consoles de jeux vidéo, des premiers ordinateurs et des équipements audio numériques à faible résolution.
 
 ## Utilité
 
-Le Bitcrusher permet de transformer un son propre et précis en une texture numérique rugueuse, agressive ou expérimentale. Il est particulièrement utilisé sur les synthétiseurs, les percussions, les basses et les instruments électroniques pour créer des sonorités rétro, robotiques ou volontairement dégradées. Selon son intensité, il peut ajouter une légère coloration Lo-Fi ou détruire presque complètement le caractère original dun instrument, ce qui le rend particulièrement intéressant pour le sound design.
+Le BitCrusher permet de transformer un son propre et précis en une texture numérique rugueuse, agressive ou expérimentale. Il est particulièrement utilisé sur les synthétiseurs, les percussions, les basses et les instruments électroniques pour créer des sonorités rétro, robotiques ou volontairement dégradées. Selon son intensité, il peut ajouter une légère coloration Lo-Fi ou détruire presque complètement le caractère original dun instrument, ce qui le rend particulièrement intéressant pour le sound design.
 
 ## Fonctionnement
 
-Le Bitcrusher fonctionne principalement en réduisant la Bit Depth, qui détermine le nombre de niveaux damplitude disponibles pour représenter le signal numérique, et parfois le Sample Rate, qui détermine le nombre déchantillons audio traités par seconde. Diminuer la Bit Depth introduit des erreurs de quantification, créant du bruit et de la distorsion numérique, tandis que réduire le Sample Rate peut produire des artefacts daliasing et des sonorités plus artificielles. Certains plugins proposent également un Dry/Wet, permettant de mélanger le signal original avec le signal dégradé afin de contrôler lintensité de leffet.
+Le BitCrusher fonctionne principalement en réduisant la Bit Depth, qui détermine le nombre de niveaux damplitude disponibles pour représenter le signal numérique, et parfois le Sample Rate, qui détermine le nombre déchantillons audio traités par seconde. Diminuer la Bit Depth introduit des erreurs de quantification, créant du bruit et de la distorsion numérique, tandis que réduire le Sample Rate peut produire des artefacts daliasing et des sonorités plus artificielles. Certains plugins proposent également un Dry/Wet, permettant de mélanger le signal original avec le signal dégradé afin de contrôler lintensité de leffet.
 
 ## VST3: BitCrusher (SocaLabs)
 
@@ -43,16 +43,16 @@ BitCrusher (SocaLabs) est un plugin de dégradation numérique qui permet de ré
 
 ### Dirty
 
-> Détermine si le Bitcrusher utilise un traitement numérique brut ou un traitement avec réduction des artefacts d’aliasing.
+> Détermine si le BitCrusher utilise un traitement numérique brut ou un traitement avec réduction des artefacts d’aliasing.
 
 - On : Désactive les traitements anti-aliasing, produisant un son plus brut, rugueux et potentiellement agressif.
-- Off : Utilise un traitement plus propre, qui réduit certains artefacts numériques indésirables tout en conservant l’effet Bitcrusher.
-- Je recommande de commencer avec Dirty désactivé, particulièrement puisque tu avais remarqué des bruits numériques désagréables avec ton ancien Bitcrusher. Tu conserveras la dégradation produite par Bits et Rate sans ajouter autant d’aliasing.
+- Off : Utilise un traitement plus propre, qui réduit certains artefacts numériques indésirables tout en conservant l’effet BitCrusher.
+- Je recommande de commencer avec Dirty désactivé, particulièrement puisque tu avais remarqué des bruits numériques désagréables avec ton ancien BitCrusher. Tu conserveras la dégradation produite par Bits et Rate sans ajouter autant d’aliasing.
 - Il n’existe pas de réglage universel. Un traitement propre est intéressant pour une coloration Lo-Fi contrôlée, tandis qu’un traitement brut convient aux effets expérimentaux, chiptune et aux destructions numériques.
 
 ### Wet (REAPER)
 
-> Contrôle la quantité de signal traité par le Bitcrusher dans le mélange final.
+> Contrôle la quantité de signal traité par le BitCrusher dans le mélange final.
 
 - Paramètre externe au plugin, accessible dans REAPER.
 - Augmenter : Rend la dégradation numérique plus présente.

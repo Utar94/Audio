@@ -1,0 +1,33 @@
+
+desc: AKAI QuadMorph Wet
+
+@init
+x = 64;
+y = 64;
+
+@block
+while (midirecv(offset, msg1, msg2, msg3)) (
+  // Preserve the original MIDI message
+  midisend(offset, msg1, msg2, msg3);
+
+  (msg1 & $xF0) == $xB0 ? (
+    changed = 0;
+
+    msg2 == 24 ? (
+      x = msg3;
+      changed = 1;
+    );
+
+    msg2 == 25 ? (
+      y = msg3;
+      changed = 1;
+    );
+
+    changed ? (
+      distance = max(abs(x - 64), abs(y - 64));
+      normalized = min(1, distance / 63);
+      wet = floor(normalized * normalized * 127 + 0.5);
+      midisend(offset, msg1, 26, wet);
+    );
+  );
+);
